@@ -1,0 +1,548 @@
+/*
+Author Name:Rakibul Hasan;
+Email Address:rakibulhasan80higri@gmail.com;
+Site url:www.80-hijri@gmil.com;
+GPL Licence:4.10;
+*/
+/*
+====Index====
+1.Home            
+2.About Us
+3.Our Services
+4.Prices
+5.Contact
+*/
+
+/* Global css section-------------------------------*/
+
+/*Theme css section start---------------------------------*/
+ 
+ /*header section start-------------------------------------*/
+header{
+	background: url(../img/img_2.png)top center ;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+
+	}	
+
+
+header li a{
+	color: white;
+	transition: ease-in-out 0.4s
+}
+header li a:hover {
+	color: #bb174d;
+}
+.fa.fa-home{
+	color: white;
+}
+
+
+.header-banner{
+
+margin-top: 200px;
+color: white;
+text-align: center;
+}
+
+.header-banner .hl{
+	font-size: 30px;
+}
+.header-banner span{
+	display: block;
+	width: 20%;
+	margin: 30px auto;
+	border-bottom: 2px solid #bb174d;
+}
+.header-banner p{
+	
+}
+.header-banner button{
+	margin: 60px 0 230px 0 ;
+	background: #ed145b;
+	border: none;
+	color: white;
+	padding: 5px 20px;
+	border-radius: 15px;
+
+
+
+}
+ /*about section start-------------------------------------*/
+.about{
+
+	
+
+	background: url(../img/img_31.png)top center ;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+}
+.about h5{
+	font-size: 38px;
+	color: #5a5a5a;
+
+
+}
+.about .ul{
+display: block;
+margin: 40px 0;
+border-bottom: 2px solid #ed145b;
+width: 50%;
+	
+}
+.about p{
+font-size: 15px;
+color: #5a5a5a;
+
+	
+}
+.about .para{
+font-size: 15px;
+color: #ed145b;
+	
+}
+.fa.fa-chevron-circle-right{
+	color: #ed145b;
+	font-size: 20px;
+	margin-left: 10px;
+	
+}
+.about img{
+	width: 480px;
+	position: absolute;
+	top: 55%;
+
+}
+/*services section start----------------------------*/
+.services{
+
+}
+.ser-one{
+	text-align: center;
+}
+
+.ser-one h2{
+	font-size: 38px;
+	color: #5a5a5a;
+
+
+	}
+
+.ser-one span{
+	display: block;
+	width: 40%;
+	border-bottom: 1px solid  #ed145b;
+	margin: 10px auto; 
+}
+.ser-one p{
+	font-size: 15px;
+	color: #5a5a5a;
+}
+.ser-two{
+	text-align: center;
+}
+.ser-tow img{
+
+}
+.ser-two h6{
+	margin: 10px 0px;
+	color: #f05b82;
+}
+/*Carasule section start------------------------------*/
+.caraousel .fa.fa-quote-left{
+	font-size: 22px;
+	color: #ed145b;
+}
+.caraousel .fa.fa-quote-right{
+
+	color: #ed145b;
+	font-size: 22px;
+	
+}
+/*Prices section start----------------------------------*/
+.prices{
+	background: #f4f4f4;
+}
+
+.prices-title{
+	text-align: center;
+	color: #8a8a8a;
+	margin-bottom: 80px;
+}
+.prices-title h2{
+
+}
+.prices-title span{
+	display: block;
+	margin: 10px auto;
+	width: 30%;
+	border-bottom: 2px solid #ed145b;
+}
+.prices-title p{
+
+}
+.one{
+	text-align: center;
+	background: #5a5a5a;
+	padding: 30px 0;
+	color: #f4f4f4;
+
+}
+.one p{
+	
+}
+.one span{
+	font-size: 50px;
+}
+.one h6{
+	font-size: 15px;
+}
+
+.one button {
+    font-size: 15px;
+    padding: 7px 25px;
+    border-radius: 15px;
+    border: none;
+    background: #f4f4f4;
+    position: absolute;
+    top: 37%;
+    left: 22%;
+}
+
+.two{
+	background: white;
+	text-align: center;
+	color: #787878;
+	padding: 30px 0;
+}
+.two p{
+	margin-top: 10px;
+	line-height: 30px;
+}
+.two button{
+	font-size: 15px;
+    padding: 7px 35px;
+    border-radius: 15px;
+    border: none;
+    background:#ed145b ;
+    margin-top: 15px;
+    color: white;
+}	
+
+.three{
+	text-align: center;
+	background: #ed145b;
+	padding: 30px 0;
+	color: #f4f4f4;
+
+}
+.three p{
+	
+}
+.three span{
+	font-size: 50px;
+}
+.three h6{
+	font-size: 15px;
+}
+
+.three button {
+    font-size: 15px;
+    padding: 7px 25px;
+    border-radius: 15px;
+    border: none;
+    background: #f4f4f4;
+    position: absolute;
+    top: 37%;
+    left: 22%;
+}
+/*feature section start----------------------------*/
+
+.feature h6{
+	color: #ee2265;
+}
+
+/*pink section start-----------------------------------*/
+.pink{
+	background: #ed145b;
+}
+.pink p{
+	font-size: 38px;
+	color: white;
+}
+
+.pink span{
+	
+}
+.pink button{
+	padding: 5px 30px;
+	font-size: 15px;
+	border: none;
+	border-radius: 20px;
+	color: #ed145b;
+	margin-top: 20px;
+}
+/*updates section start-------------------------*/
+.updates{
+	padding: 50px 0;
+}
+.updates-title{
+	text-align: center;
+}
+.updates-title h2{
+	margin-top: 80px;
+}
+.updates-title span{
+	margin: 25px auto;
+	display: block;
+	width: 35%;
+	border-bottom: 2px solid #ed145b;
+}
+.updates-title p{
+	margin-bottom: 40px;
+}
+.updates-gallery{
+	background: #f4f4f4;
+	margin-top: 50px;
+
+}
+
+.img-hover{
+	position: relative;
+}
+.img-hover-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #e22a66;
+	top: 0;
+	opacity: 0;
+
+}
+.img-hover-content:hover{
+	opacity: 1;
+}
+
+.img-hover-content i{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+
+.updates-gallery h6{
+	margin: 28px 0;
+}
+.updates-gallery p{
+	margin-bottom: 22px;
+}
+.see-more{
+	text-align: center;
+	color: #f03f79;
+}
+.see-more p{
+	font-size: 15px;
+	margin-top: 100px;
+}
+/*free section start----------------------------------*/
+.free{
+	background: url(../img/img_2.png)center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	padding: 130px 0;
+	text-align: center;
+}
+.free h2{
+	font-size: 38px;
+}
+.free span{
+	display: block;
+	margin: 30px auto;
+	width: 50%;
+	border-bottom: 2px solid#ed145b;
+}
+.free p{
+	font-size: 15px;
+
+}
+.free button{
+	font-size: 15px;
+	margin-top: 50px;
+	padding: 15px 50px;
+	color: white;
+	background: #ed145b;
+	border: none;
+	border-radius: 25px;
+}
+/*contact section start--------------------*/
+.contact{
+	background:#f4f4f4;
+	padding: 70px 0;
+}
+
+.contact h3{
+	font-size: 35px;
+}
+.contact span{
+	display: block;
+	width: 50%;
+	margin: 30px 0;
+	border-bottom: 2px solid #ed145b;
+}
+.contact p{
+	
+}
+.contact button{
+	margin-top: 50px;
+	padding: 15px 50px;
+	font-size: 15px;
+	background: #ed145b;
+	color: white;
+	border: none;
+	border-radius: 25px;
+}
+/*footer section start-----------------------------------*/
+footer{
+	background: #2b2b2b;
+	color: white;
+	text-align: center;
+	padding: 60px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+/*Media quarey------------------------------*/
+/*mobile device----------------------------------------*/
+@media(min-width: 320px) and (max-width: 500px) {
+	
+	.new-bg{
+	}
+
+
+	a.nav-link.js-scroll-trigger {
+    text-align: center;
+	}
+	.header-banner{
+
+		margin-top: 50px;
+		}
+
+	.header-banner button{
+	margin: 60px 0 60px 0 ;}
+	
+
+	.about{
+		height: 820px;
+	}
+	.about img{
+		margin-top: 23px;
+		width: 450px;
+
+	}
+	.f-one{
+		text-align: center;
+		margin: 15px 0;
+	}
+	.feature h6{
+		text-align: center;
+	}
+	.pink-two{
+	text-align: center;
+	}
+	.img-hover{
+		text-align: center;
+	}
+
+	.one button {
+    left: 37%;}
+    .two button{
+    margin-left: 10px;}
+    .three button {
+    left: 37%;}
+
+    .carousel-caption.d-md-block {
+    margin-bottom: -34px;}
+
+    .carousel-caption p{
+   		 font-size: 8px;
+    	 margin-bottom: -2px;}
+    	}
+/*small device section--------------------------------------*/
+@media (min-width: 501px) and (max-width: 768px) {
+
+		a.nav-link.js-scroll-trigger {
+   		 text-align: center;}
+   		.header-banner{
+
+		margin-top: 50px;
+		}
+		.header-banner button{
+		margin: 60px 0 60px 0 ;}
+		.about-two{
+			height: 300px;
+		}
+		.about img{
+		top: 10%;}
+
+		.carousel-caption.d-md-block {
+   		 	margin-bottom: -10px;}
+   		 .carousel-caption p{
+   			 font-size: 12px;
+    	 	 margin-bottom: -2px;}
+    	 
+    	 .one button {
+    		left: 37%;}
+  	 	  .two button{
+             margin-left: 5px;}
+    	  .three button {
+   			 left: 37%;}
+
+   		.col-md-1.f-one {
+    		text-align: center;
+			}
+		.img-hover img{
+			width: 100%;
+		}
+    						
+
+
+
+
+
+
+
+
+}
